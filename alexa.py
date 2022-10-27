@@ -28,16 +28,16 @@ def ouvir_microfone():
         frase = microfone.recognize_google(audio,language='pt-BR')
 
         if "code" in frase:
-            os.system("start idea64.exe")
+            os.system("start Atalhos\IntelliJ.lnk")
 
         if "discord" in frase:
-            os.system("start https://discord.com/channels/@me")
+            os.system("start Atalhos\Discord.lnk")
 
         if "Destiny" in frase:
-            os.system("start steam://rungameid/1085660")
+            os.system("start Atalhos\Destiny 2.url")
 
         elif "Warframe" in frase:
-            os.system("start steam://rungameid/230410")
+            os.system("start Atalhos\Warframe.url")
 
 
         #Retorna a frase pronunciada
